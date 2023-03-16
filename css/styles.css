@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root{
+    --primary-color:#dd6106;
+    --light-color:#dad2bc;
+}
+
+body{
+    font-family: 'khula', sans-serif;
+}
+
+a{
+    text-decoration: none;    
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home{
+    background-image:url(../img/bg.png);
+    background-size: cover;
+}
+
+.navbar{
+    justify-content:space-between;
+    padding: 2em;
+}
+
+.navbar__brand{
+    color : var(--light-color);
+}
+
+.navbar__brand--span{
+    color:var(--primary-color);
+}
