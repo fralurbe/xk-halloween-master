@@ -12,8 +12,67 @@
 </head>
 
 <body>
+  <div class="wrapper wrapper-blog">
+    <nav class="navbar flex">
+      <a href="index.html">
+        <h2 class="navbar__brand">X <span class="navbar__brand--span">K</span></h2>
+      </a>
+      <ul class="menu flex" id="menu">
+        <li class="menu__link"><a class="menu__item" href="index.html">Home</a></li>
+        <li class="menu__link"><a class="menu__item" href="">Stories</a></li>
+        <li class="menu__link"><a class="menu__item" href="blog.html">Blog</a></li>
+        <li class="menu__link"><a class="menu__item" href="">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars show-menu" id="menu_bar"></i>
+    </nav>
 
+    <div class="content-info flex-center" data-aos="fade-up" data-aos-duration="2000">
+      <span class="content-info__title content-info__title--blog">Happy Halloween</span>
+      <h1 class="content-info__subtitle content-info__subtitle--blog">Awesome hallowen stories</h1>
+      <a href="#blog-content">
+        <button class="button dark-button">Read more</button>
+      </a>
+    </div>
+  </div>
 
+  <article class="blog-content flex-center" id="blog-content">
+    <div class="blog-content-info">
+      <h1 class="blog-content-title">XK Horror Stories</h1>
+      <div class="divider"></div>
+    </div>
+
+    <div class="card-content flex-center">
+      <div class="card" data-aos="fade-down" data-aos-duration="2000">
+        <div class="card__img card__img1"></div>
+        <h4 class="card__info">#1 Nightmare Again</h4>
+      </div>
+      <div class="card" data-aos="fade-down" data-aos-duration="2000">
+        <div class="card__img card__img2"></div>
+        <h4 class="card__info">#2 Horror story</h4>
+      </div>
+      <div class="card" data-aos="fade-down" data-aos-duration="2000">
+        <div class="card__img card__img3"></div>
+        <h4 class="card__info">#3 The evil pumpkin</h4>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="2000">
+        <div class="card__img card__img4"></div>
+        <h4 class="card__info">#4 Red moon</h4>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="2000">
+        <div class="card__img card__img5"></div>
+        <h4 class="card__info">#5 Night sea</h4>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="2000">
+        <div class="card__img card__img6"></div>
+        <h4 class="card__info">#6 Cirio maligno</h4>
+      </div>
+  </article>
+
+  <footer class="footer flex-center">
+    <span class="footer-info">
+      &copy Todos los derechos reservados.
+    </span>
+  </footer>
 
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
